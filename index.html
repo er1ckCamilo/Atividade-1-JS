@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+        Obtenha dados da altura e o sexo (M ou F) de 15 pessoas e apresente os seguintes resultados:
+
+        - A maior e a menor altura do grupo;
+        - A média de altura dos homens;
+        - O número de mulheres. 
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Atividade 1</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <label for="height">Altura</label>
+    <input type="text" name="height" id="height">
+    <label for="m">M</label>
+    <input type="radio" name="sex" id="m" value="M"> 
+    <label for="f">F</label>
+    <input type="radio" name="sex" id="f" value="F"><br><br>
+    <button onclick="getForm();setTitle()">Enviar</button>
+    <script>
+        count++;
+        setTitle();
+        clearForm();
+    </script>
+</body>
+</html>
